@@ -1,0 +1,62 @@
+:root{
+    --color-time: #000
+}
+
+body{
+
+    font-size: 72px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    background-image: url(images/background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 500px;
+    height: 250px;
+    display: flex;
+
+    position: absolute;
+    top: 75px;
+    left: 350px
+}
+
+.time{
+    width: 30px;
+    display: flex;
+    margin: 60px;
+    color: var(--color-time);
+}
+
+.calendar{
+    position: absolute;
+    top: 75px;
+    right: 550px;
+
+}
+
+.date{
+    width: 30px;
+    display: flex;
+    margin: 60px;
+    color: var(--color-time);
+}
+
