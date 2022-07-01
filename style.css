@@ -47,11 +47,11 @@ body{
 }
 
 .calendar{
+    width: 250px;
+    
     position: absolute;
     top: 75px;
     right: 450px;
-
-    width: 250px;
 }
 
 .date{
