@@ -91,6 +91,6 @@ setInterval( () => {
 
 
     //text in document title
-    document.title = hours + " " + minutes + " " + seconds + " - Aktualny czas";
+    document.title = hours + " : " + minutes + " : " + seconds + " - Aktualny czas";
 
-}, 100);
+}, 1000);
