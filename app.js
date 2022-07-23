@@ -4,7 +4,6 @@ const second = document.querySelector("#second")
 const day = document.querySelector("#day");
 const month = document.querySelector("#month");
 const year = document.querySelector("#year");
-const joke = document.querySelector("#joke");
 
 setInterval( () => {
 

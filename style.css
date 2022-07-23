@@ -16,7 +16,6 @@ body{
 
     margin: 0;
     height: 100vh;
-    overflow: hidden;
 
     display: flex;
     justify-content: center;
@@ -24,40 +23,44 @@ body{
 }
 
 .container{
+
+    width: 50%;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 25%;
+
+    padding: 30px;
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.75);
+    background: linear-gradient(to right top, rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.50));
+    backdrop-filter: blur(2px);
 }
 
 .clock{
-    width: 500px;
-    height: 250px;
-    display: flex;
-
-    position: absolute;
-    top: 75px;
-    left: 350px
-}
-
-.time{
-    width: 30px;
-    display: flex;
-    margin: 60px;
-    color: var(--color-time);
+    width: 10%;
+    padding: 5px;
+    color: #fff
 }
 
 .calendar{
-    width: 250px;
+    width: 10%;
+    padding: 5px;
+    color: #000
+}
+
+@media(max-width: 726px){
+    .container{
+        flex-direction: column;
+    }
+    .clock{
+        margin-right: 75px;
+    }
     
-    position: absolute;
-    top: 75px;
-    right: 450px;
+    .calendar{
+        margin-right: 75px;
+        text-align: center;
+    }
 }
-
-.date{
-    width: 30px;
-    display: flex;
-    margin: 60px;
-    color: var(--color-time);
-}
-
